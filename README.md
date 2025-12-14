@@ -30,7 +30,8 @@ omarchy-theme-install https://github.com/HANCORE-linux/omarchy-velvetnight-theme
 - in Screenshot im using Waybar config V6.e - check my Waybar-Themes [Link](https://github.com/HANCORE-linux/waybar-themes)
 
 ## Acknowledgments
-This theme was created using [Aether](https://github.com/bjarneo/aether) by [@bjarneo](https://github.com/bjarneo).
+- This theme was created using [Aether](https://github.com/bjarneo/aether) by [@bjarneo](https://github.com/bjarneo). <br>
+- Credits to [Miqim](https://tahfizhabib.github.io/) for his nice stylish walker setups 
 
 ### License
 MIT
