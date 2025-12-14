@@ -4,3 +4,52 @@
 @define-color border #626b78;
 @define-color foreground #b8b9bc;
 @define-color background #060b16;
+
+window * {
+    all: unset;
+    color: @text;
+    background: none;
+    border: none;
+    margin: 0;
+    padding: 0;
+    line-height: 1em;
+}
+
+window .normal-icons,
+window .large-icons,
+window .item-image,
+window .symbols {
+    -gtk-icon-size: 0;
+    min-width: 0;
+    min-height: 0;
+    padding: 0;
+    margin: 0;
+    display: none;
+}
+
+window .box-wrapper {
+    background: alpha(@base, 1);           /* dark transparency */
+    border: 1px solid alpha(@border, 0.9);    /* visible border */
+    border-radius: 10px;
+    padding: 4px;
+    margin: 0;
+    box-shadow: 0 2px 12px alpha(black, 0.45);
+    backdrop-filter: blur(1px);
+}
+
+window .search-container {
+    border: 2px solid alpha(@border, 0.9);    /* visible border */
+    border-radius: 8px;
+    padding: 4px 6px;
+    margin: 0;
+    background: alpha(@base, 0.8);            /* slightly transparent */
+    box-shadow: inset 0 0 6px alpha(white, 0.05);
+    backdrop-filter: blur(1px);
+}
+
+window .input {
+    background: transparent;
+    color: @text;
+}
+    color: @text;
+}
