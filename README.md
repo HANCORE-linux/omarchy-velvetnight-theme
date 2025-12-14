@@ -15,12 +15,7 @@ Velvet Night is a sophisticated dark theme designed for a comfortable coding exp
 To install this theme, simply use the omarchy-theme-install command:
 
 ```bash
-omarchy-theme-install https://github.com/HANCORE-linux/omarchy-moodpeak-theme.git
-```
-## Vesktop-Theme
-For Vesktop users, you can install this theme by copying or use Bypass hook-script (usally from ~/Downloads) the theme file to your Vesktop themes directory:
-```bash
-cp vencord.theme.css ~/.config/vesktop/themes/vencord.theme.css
+omarchy-theme-install https://github.com/HANCORE-linux/omarchy-velvetnight-theme.git
 ```
 
 ## Vesktop (Discord) , Superfile,  VSCode, ZED, Spotify , GTK Support etc..
