@@ -1,7 +1,7 @@
 @define-color selected-text #e2687c;
 @define-color text #b8b9bc;
 @define-color base #060b16;
-@define-color border #811139;
+@define-color border #5c637a;
 @define-color foreground #b8b9bc;
 @define-color background #060b16;
 
@@ -30,7 +30,7 @@ window .symbols {
 window .box-wrapper {
     background: alpha(@base, 1);           /* dark transparency */
     border: 1.5px solid alpha(@border, 0.9);    /* visible border */
-    border-radius: 10px;
+    border-radius: 5px;
     padding: 4px;
     margin: 0;
     box-shadow: 0 2px 12px alpha(black, 0.85);
@@ -39,7 +39,7 @@ window .box-wrapper {
 
 window .search-container {
     border: 2px solid alpha(@border, 0.9);    /* visible border */
-    border-radius: 8px;
+    border-radius: 4px;
     padding: 4px 6px;
     margin: 0;
     background: alpha(@base, 0.8);            /* slightly transparent */
