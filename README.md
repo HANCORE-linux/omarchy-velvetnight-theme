@@ -1,11 +1,14 @@
 # Velvet Night
 Velvet Night is a sophisticated dark theme designed for a comfortable coding experience. Deep, muted backgrounds are paired with soft, contrasting highlights, creating a calm and elegant environment for focus and productivity.
 # Screenshots
+<img width="2560" height="1440" alt="screenshot-2025-12-14_23-25-15" src="https://github.com/user-attachments/assets/da888af7-68e0-4366-9556-713dbc0e6dc9" />
+<img width="2560" height="1440" alt="screenshot-2025-12-14_23-23-15" src="https://github.com/user-attachments/assets/90fdda9f-abfd-4a49-bef7-75d66a0efbff" />
 
 
 
 
 # Backgrounds
+![a_close-up_of_a_door](https://github.com/user-attachments/assets/9d47b0b4-54a0-410f-9ce8-d3885de2eebf)
 
 
 
