@@ -1,7 +1,7 @@
 @define-color selected-text #e2687c;
 @define-color text #b8b9bc;
 @define-color base #060b16;
-@define-color border #626b78;
+@define-color border #811139;
 @define-color foreground #b8b9bc;
 @define-color background #060b16;
 
@@ -33,7 +33,7 @@ window .box-wrapper {
     border-radius: 10px;
     padding: 4px;
     margin: 0;
-    box-shadow: 0 2px 12px alpha(black, 0.45);
+    box-shadow: 0 2px 12px alpha(black, 0.85);
     backdrop-filter: blur(1px);
 }
 
@@ -49,7 +49,5 @@ window .search-container {
 
 window .input {
     background: transparent;
-    color: @text;
-}
     color: @text;
 }
