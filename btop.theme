@@ -1,5 +1,5 @@
 # Main background, empty for terminal default, need to be empty if you want transparent background
-theme[main_bg]="#060B16"
+theme[main_bg]="#0C1222"
 
 # Main text color
 theme[main_fg]="#ffffff"
@@ -36,13 +36,13 @@ theme[temp_end]="#C6667A"
 
 
 theme[cpu_start]="#D1AD4A"
-theme[cpu_mid]="#C6667A"
-theme[cpu_end]="#2B1222"
+theme[cpu_mid]="#D1AD4A"
+theme[cpu_end]="#e2687c"
 
 
 theme[free_start]="#D1AD4A"
-theme[free_mid]="#C6667A"
-theme[free_end]="#2B1222"
+theme[free_mid]="#D1AD4A"
+theme[free_end]="#D1AD4A"
 
 
 theme[cached_start]="#373F4B"
