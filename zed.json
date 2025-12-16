@@ -16,12 +16,12 @@
             "text.placeholder": "#ffffff50",
             "ignored": "#ffffff30",
             "element.hover": "#ffffff30",
-            "ghost_element.hover": "#2C2E4730",
-            "ghost_element.selected": "#2C2E4730",
-            "ghost_element.active": "#2C2E4760",
+            "ghost_element.hover": "#6B72A830",
+            "ghost_element.selected": "#6B72A830",
+            "ghost_element.active": "#6B72A860",
             "border": "#0A101F",
-            "editor.highlighted_line.background": "#2C2E4710",
-            "editor.active_line.background": "#2C2E4710",
+            "editor.highlighted_line.background": "#6B72A810",
+            "editor.active_line.background": "#6B72A810",
             "panel.background": "#0A101F90",
             "title_bar.background": "#0A101F90",
             "title_bar.inactive_background": "#0A101F90",
@@ -31,7 +31,7 @@
             "toolbar.background": "#0A101F90",
             "tab_bar.background": "#0A101F90",
             "tab.inactive_background": "#0A101F90",
-            "tab.active_background": "#2C2E4730",
+            "tab.active_background": "#6B72A830",
             "scrollbar.track.background": "transparent",
             "scrollbar.track.border": "#0A101F",
             "scrollbar.thumb.background": "#ffffff",
@@ -48,7 +48,7 @@
             "terminal.ansi.magenta": "#e2687c",
             "terminal.ansi.cyan": "#C24F40",
             "terminal.ansi.white": "#F5ECDF",
-            "terminal.ansi.bright_black": "#2C2E47",
+            "terminal.ansi.bright_black": "#6B72A8",
             "terminal.ansi.bright_red": "#e21d63",
             "terminal.ansi.bright_green": "#5C637A",
             "terminal.ansi.bright_yellow": "#f0d17c",
@@ -65,10 +65,10 @@
                 "color": "#5C637A"
               },
               "comment": {
-                "color": "#2C2E47"
+                "color": "#6B72A8"
               },
               "comment.doc": {
-                "color": "#2C2E47"
+                "color": "#6B72A8"
               },
               "constant": {
                 "color": "#5C637A"
