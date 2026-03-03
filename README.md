@@ -22,7 +22,10 @@ To install this theme, simply use the omarchy-theme-install command:
 omarchy-theme-install https://github.com/HANCORE-linux/omarchy-velvetnight-theme.git
 ```
 
-## Vesktop (Discord) , Superfile,  VSCode, ZED, Spotify , GTK Support etc..
+## ZED
+- added ZED Theme "termy-dark" - go Zed > Selected Themes > select "Termy-Dark"
+
+## Vesktop (Discord) , Superfile, Spotify , GTK Support etc..
 - all yes! - thanks [imbypass](https://github.com/imbypass/omarchy-hook-theme-set-ex/tree/main) for his hook script!
 - VSCode: click on manage (left down corner) > Themes > Color Theme > search for Omarchy
 
