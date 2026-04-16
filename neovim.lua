@@ -1,40 +1,57 @@
 return {
     {
-        "bjarneo/aether.nvim",
-        name = "aether",
-        priority = 1000,
+    "bjarneo/aether.nvim",
+    branch = "v3",
+    name = "aether",
+    priority = 1000,
         opts = {
-            disable_italics = false,
-            colors = {
-                -- Monotone shades (base00-base07)
-                base00 = "#0a101f", -- Default background
-                base01 = "#a88525", -- Lighter background (status bars)
-                base02 = "#0a101f", -- Selection background
-                base03 = "#6B72A8", -- Comments, invisibles
-                base04 = "#6CB6FF", -- Dark foreground
-                base05 = "#C7D3E0", -- Default foreground
-                base06 = "#C7D3E0", -- Light foreground
-                base07 = "#e7eaef", -- Light background
+             colors = {
+            
+            bg = "#0a101f",
+            dark_bg = "#0a0e17",
+            darker_bg = "#090c11",
+            lighter_bg = "#4e4e4e",
+            
+            
+            fg = "#ffffff",
+            dark_fg = "#C7D3E0",
+            light_fg   = "#afbbab",
+            bright_fg  = "#eaede9",
+            muted      = "#9099a5",
+ 
+            red = "#918151", -- Variables, errors, red
+            orange = "#e2687c", -- Integers, constants, orange
+            yellow = "#e5af1b", -- Classes, types, yellow
+            green = "#DC9B68", -- Strings, green
+            cyan = "#F5ECDF", -- Support, regex, cyan
+            blue = "#C24F40", -- Functions, keywords, blue
+            purple = "#ff6bf5", -- Keywords, storage, magenta
+            brown = "#6B72A8", -- Deprecated, brown/yellow
+ 
+        bright_red    = "#e21d63",
+        bright_yellow = "#f5ecd2",
+        bright_green  = "#787e93",
+        bright_cyan   = "#DC9B68",
+        bright_blue   = "#9099a5",
+        bright_purple = "#f9cbf6",
 
-                -- Accent colors (base08-base0F)
-                base08 = "#918151", -- Variables, errors, red
-                base09 = "#e2687c", -- Integers, constants, orange
-                base0A = "#e5af1b", -- Classes, types, yellow
-                base0B = "#DC9B68", -- Strings, green
-                base0C = "#F5ECDF", -- Support, regex, cyan
-                base0D = "#C24F40", -- Functions, keywords, blue
-                base0E = "#ff6bf5", -- Keywords, storage, magenta
-                base0F = "#f0d17c", -- Deprecated, brown/yellow
-            },
+        accent               = "#9099a5",
+        cursor               = "#ffffff",
+        foreground           = "#ffffff",
+        background           = "#0a101f",
+        selection            = "#28302b",
+        selection_foreground = "#ffffff",
+        selection_background = "#28302b",
+ 
+           },
         },
-        config = function(_, opts)
-            require("aether").setup(opts)
-            vim.cmd.colorscheme("aether")
-
-            -- Enable hot reload
-            require("aether.hotreload").setup()
-        end,
-    },
+    config = function(_, opts)
+      require("aether").setup(opts)
+      vim.cmd.colorscheme("aether")
+      -- Enable hot reload
+      require("aether.hotreload").setup()
+    end,
+  },
     {
         "LazyVim/LazyVim",
         opts = {
