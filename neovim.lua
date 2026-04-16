@@ -22,7 +22,7 @@ return {
             red = "#918151", -- Variables, errors, red
             orange = "#e2687c", -- Integers, constants, orange
             yellow = "#e5af1b", -- Classes, types, yellow
-            green = "#DC9B68", -- Strings, green
+            green = "#5C637A", -- Strings, green
             cyan = "#F5ECDF", -- Support, regex, cyan
             blue = "#C24F40", -- Functions, keywords, blue
             purple = "#ff6bf5", -- Keywords, storage, magenta
