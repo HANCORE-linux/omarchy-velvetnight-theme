@@ -11,26 +11,14 @@ Velvet Night is a mystical dark theme inspired by the quiet depth of the night. 
 # Backgrounds
 ![a_close-up_of_a_door](https://github.com/user-attachments/assets/9d47b0b4-54a0-410f-9ce8-d3885de2eebf)
 
-
-
-
-# Installation Theme
-
-To install this theme, simply use the omarchy-theme-install command:
-
-```bash
-omarchy-theme-install https://github.com/HANCORE-linux/omarchy-velvetnight-theme.git
-```
-
-## ZED
+#### ZED
 - added ZED Theme "termy-dark" - go Zed > Selected Themes > select "Termy-Dark"
 
-## Vesktop (Discord) , Superfile, Spotify , GTK Support etc..
-- all yes! - thanks [imbypass](https://github.com/imbypass/omarchy-hook-theme-set-ex/tree/main) for his hook script!
-- VSCode: click on manage (left down corner) > Themes > Color Theme > search for Omarchy
+#### Waybar
+[LINK](https://github.com/HANCORE-linux/waybar-themes)
 
-## Waybar-Theme
-- in Screenshot im using Waybar config V6.e - check my Waybar-Themes [Link](https://github.com/HANCORE-linux/waybar-themes)
+#### Recommendations for 3rd-Party App Theming
+Using Bypass Theme-Hook script for GTK, Vesktop, Steam, Spotify etc [LINK](https://github.com/imbypass/omarchy-theme-hook)
 
 ## Acknowledgments
 - This theme was created using [Aether](https://github.com/bjarneo/aether) by [@bjarneo](https://github.com/bjarneo). <br>
