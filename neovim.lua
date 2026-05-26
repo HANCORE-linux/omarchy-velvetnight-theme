@@ -11,6 +11,7 @@ return {
             dark_bg = "#0a0e17",
             darker_bg = "#090c11",
             lighter_bg = "#4e4e4e",
+            bg_highlight = "#843954",
             
             
             fg = "#ffffff",
@@ -44,6 +45,14 @@ return {
         selection_background = "#28302b",
  
            },
+            on_highlights = function(hl, c)
+    -- Your existing lines
+    hl.CursorLine = { bg = "#151b2a" } 
+    hl.CursorLineNr = { fg = c.orange, bold = true }
+    hl["@markup.raw.markdown_inline"] = { bg = "NONE" }
+    hl["@markup.raw.block.markdown"] = { bg = "NONE" }
+	hl["@markup.quote"] = { bg = "NONE" }
+    end,
         },
     config = function(_, opts)
       require("aether").setup(opts)
